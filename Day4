@@ -14,3 +14,8 @@ I used la -la command to verify that the xfusioncorp.sh file was successfully cr
 I used sudo chmod 555 command to give read and execute permissions to owner, group and others.
 I used la -la command again to verify that the permission for the xfusioncorp.sh file
 I did ctrl + s to save
+
+I checked the status of my files with git status command
+Staged Day4 using git add Day4
+Committed it with Git commit -m "Added Day4 file"
+Pushed the commit to GitHub using git push
