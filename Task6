@@ -1,0 +1,8 @@
+Renamed all the task files from Day1 to Task1 in that order 
+Created an AWS Account
+Downloaded Google Authenticator
+
+I checked the status of my files with git status command
+Staged the files using git add .
+Committed it with Git commit -m "Renamed all files"
+Pushed the commit to GitHub using git push

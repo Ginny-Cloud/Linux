@@ -1,0 +1,22 @@
+You work as the IT staff in a company, a new intern Sam started today.You received an email from HR to create Sam in the system with all the necessary credentials.
+Create user Sam
+Give Sam password Sam#123
+Create group interns
+Add Sam to the interns group 
+Grant group interns read only priviledges to the /tmp folder your created in Task4
+NB: Kindly outline the steps you took to finish this task.
+
+Solution
+I created user sam usinf sudo adduser sam
+I set the password for sam
+I created a new group called interns using: sudo groupadd interns
+I verified that the group interns exists using: getent group interns
+I added the user Sam to the interns group using: sudo usermod -aG interns Sam
+I changed the group ownership of the folder tmp to interns using: sudo chown :interns tmp
+I set the folder tmp to have read-only access for the group using: sudo chmod 750 tmp
+Used ls -l to verify the read-only access for the group
+
+I checked the status of my files with git status command
+Staged Task5 using git add Task5
+Committed it with Git commit -m "Added Task5 file"
+Pushed the commit to GitHub using git push

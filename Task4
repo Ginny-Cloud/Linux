@@ -1,4 +1,4 @@
-Day4
+Task4
 Execute the following commands after creating the directory and file
 NB: Remember to update the steps you took
 
@@ -16,6 +16,6 @@ I used la -la command again to verify that the permission for the xfusioncorp.sh
 I did ctrl + s to save
 
 I checked the status of my files with git status command
-Staged Day4 using git add Day4
-Committed it with Git commit -m "Added Day4 file"
+Staged Task4 using git add Task4
+Committed it with Git commit -m "Added Task4 file"
 Pushed the commit to GitHub using git push
